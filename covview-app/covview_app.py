@@ -16,7 +16,7 @@ st.set_page_config(
  )
 
 
-@st.cache
+# @st.cache
 cov=pd.read_csv('covview-app/WHOcov_cleaned.csv',index_col=0)
 # cov = st.cache(pd.read_csv)("WHOcov_cleaned.csv",index_col=0)
 
